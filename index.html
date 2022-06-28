@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/img/favicon.jpg"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body class="grid-container">
     <nav class="navbar">
         <div class="navbar-container">
-            <div class="navbar-logo">
+            <div class="navbar-logo"  data-aos="fade-right">
                 <a href="./index.html" class="navbar-logo" ><img src="./assets/img/logonavbar.png" alt="logo"></a>
             </div>
             <div class="navbar-items">
@@ -80,5 +81,9 @@
     <footer class="footer" align="center">
         <h5>&copy;derechos reservados Santiago Garcia Feege</h5>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
