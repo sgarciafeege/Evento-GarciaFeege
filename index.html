@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/img/favicon.jpg"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Congreso Medico Argentino</title>
 </head>
-<body class="grid-container">
-    <nav class="navbar">
-        <div class="navbar-container">
+<body>
+    <nav class="navmenu">
+        <div class="nav-container">
             <div class="navbar-logo"  data-aos="fade-right">
-                <a href="./index.html" class="navbar-logo" ><img src="./assets/img/logonavbar.png" alt="logo"></a>
+                <a href="./index.html" class="nav-logo" ><img src="./assets/img/logonavbar.png" alt="logo"></a>
             </div>
-            <div class="navbar-items">
+            <div class="nav-items">
                 <ul>
                     <li><a href="./index.html">Inicio</a></li>
                     <li><a href="./pages/oradores.html">Oradores</a></li> 
@@ -26,9 +27,9 @@
         </div>
     </nav>
 
-    <header class="header">
-        <div class="event">
-            <div class="container">
+    <header class="header container-fluid">
+        <div class="event row">
+            <div class="container col-12 col-lg-6">
                 <div class="event-name">
                     <h1> XIV CONGRESO <br>
                     MÉDICO <br>
@@ -39,48 +40,47 @@
                     <h2>20 y 21 de Agosto</h2>
                 </div>
             </div>
+            <div class="col-12 col-lg-6"></div>
         </div>
     </header>
 
-    <main class="main">
-        <div class="about">
-            <div class="about-container">
-                <div class="about-img">
-                    <img src="./assets/img/background02.jpg" alt="background">
-                </div>
-                <div class="about-text">
-                    <h2>Sobre nosotros</h2>
-                    <p>En nombre de la Sociedad Argentina de Medicina tenemos el agrado de invitarlos a participar de nuestro XIV Congreso Medico Argentino 2022, que se llevará a cabo el 20 y 21 de Agosto de 2022 en el Hotel Hilton de la Ciudad de Buenos Aires.
-                        <br>
-                        <br>
-                    Como es habitual en nuestros congresos, accederemos a los conocimientos más recientes de la mano de renombrados expositores nacionales e internacionales, compartiremos experiencias,  y debatiremos temas en todas las subespecialidades de la Infectología actual. Para estos fines diseñamos simposios, conferencias, mesas redondas, debates, presentación de trabajos orales y pósters.</p>
-                </div>
+    <div class="about container-fluid">
+        <div class="about-container row">
+            <div class="about-img col-12 col-lg-6">
+                <img src="./assets/img/background02.jpg" alt="background">
+            </div>
+            <div class="about-text col-12 col-lg-6 align-self-center">
+                <h2>Sobre nosotros</h2>
+                <p>En nombre de la Sociedad Argentina de Medicina tenemos el agrado de invitarlos a participar de nuestro XIV Congreso Medico Argentino 2022, que se llevará a cabo el 20 y 21 de Agosto de 2022 en el Hotel Hilton de la Ciudad de Buenos Aires.
+                    <br>
+                    <br>
+                Como es habitual en nuestros congresos, accederemos a los conocimientos más recientes de la mano de renombrados expositores nacionales e internacionales, compartiremos experiencias,  y debatiremos temas en todas las subespecialidades de la Infectología actual. Para estos fines diseñamos simposios, conferencias, mesas redondas, debates, presentación de trabajos orales y pósters.</p>
             </div>
         </div>
+    </div>
 
-    </main>
-
-    <section class="section">
-        <div class="section-container">
-            <div class="section-img">
-                <img src="./assets/img/HotelHilton.jpeg" alt="Hotel">
-            </div>
-            <div class="section-venue">
+    <section class="section container-fluid">
+        <div class="section-container row justify-content-center">
+            
+            <div class="section-venue col-12 col-lg-6 align-self-center">
                 <h2>Sede XIV Congreso Médico Argentino</h2>
                 <h3> Hotel Hilton Buenos Aires</h3>
                 <p><strong>Macacha Güemes 351, C1106BKG CABA, Argentina</strong> <br>
                 Este moderno hotel con un impresionante atrio se encuentra en el lujoso distrito de Puerto Madero, a 12 minutos a pie de la histórica plaza de Mayo y a 3.1 km del Museo de Arte Moderno de Buenos Aires.</p>
             </div>
-            
-            <div class="section-map">
+            <div class="section-img col-12 col-lg-6">
+                <img src="./assets/img/HotelHilton.jpeg" alt="Hotel">
+            </div>
+            <div class="section-map col-12 col-lg-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9409851821592!2d-58.365822985139204!3d-34.60565378045894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335ef4809ceef%3A0x3945c8c351477a54!2sHotel%20Hilton%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655845803323!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            
         </div>   
     </section>
-
     <footer class="footer" align="center">
         <h5>&copy;derechos reservados Santiago Garcia Feege</h5>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
