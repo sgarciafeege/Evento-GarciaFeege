@@ -203,6 +203,12 @@ h1 {
     padding-bottom: 1rem;
 }
 
+/*SPONSORS STYLE*/
+
+.logos img {
+   width: 100%;
+}
+
       /* MOBILE STYLE */
 @media (max-width: 576px) {
     /*navbar*/
