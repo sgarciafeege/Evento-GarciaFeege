@@ -1,0 +1,70 @@
+.header {
+    background-image: url('/assets/img/evento-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 75%;
+    color: #fff;
+
+    .event {
+        padding-left: 3rem;
+        padding-top: 7rem;
+    }
+
+    .event-name h2 {
+        font-weight: 100;
+    }
+}
+
+
+/*header-oradores*/
+.header-oradores {
+    background-image: url(../img/bg-oradores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    opacity: 75%;
+}
+/*header-programa*/
+.header-programa {
+    background-image: url(../img/bg-agenda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    opacity: 75%;
+}
+/*header-sponsors*/
+.header-sponsors {
+    background-image: url(../img/bg-sponsors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    opacity: 75%;
+}
+/*header-contacto*/
+.header-contacto {
+    background-image: url(../img/bg-contactos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    opacity: 75%;
+}
+
+
+.event-oradores, .event-programa, .event-sponsor, .event-contacto{
+    padding-left: 3rem;
+    padding-top: 15rem;
+}
+.oradores, .programa, .sponsor, .contacto {
+    background-color: $PrimaryColor;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 1rem 1rem;
+}

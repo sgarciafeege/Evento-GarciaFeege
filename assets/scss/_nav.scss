@@ -1,0 +1,29 @@
+.navmenu { 
+    .nav-container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        background-color: $PrimaryColor;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding-left: 10px;
+            li { 
+                a {
+                color: white;
+                text-align: left;
+                padding: 15px 50px 15px;
+                border-radius: 25px;
+                text-decoration: none;
+                font-size: larger;
+                &:hover {
+                    background-color: white ;
+                    color: $PrimaryColor;
+                    }
+                } 
+            }
+         }
+    }      
+}

@@ -1,0 +1,21 @@
+.about {
+    .about-container {
+        padding: 3rem 1rem 1rem 0;
+    }
+    .about-img {
+        img {
+            width: 100%;
+            border-radius: 0 50px 50px 0;
+            padding-bottom: 2rem;
+        
+        }
+    }
+    .about-text {
+        padding-left: 3rem;
+        padding-right: 1rem;
+        h2 {
+            color: $PrimaryColor;
+            font-size: 30px;
+        }
+    }
+}

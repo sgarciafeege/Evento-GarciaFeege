@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+    /*navbar*/
+    .navmenu li a {
+        color: white;
+        text-align: left;
+        padding: 15px 5px 15px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .navbar-logo img{
+        width: 80%;
+    }
+    /*oradores*/
+    .pages-rounded-card-wrapper {
+        width: 60%;
+      }
+      .pages-rounded-card-img{
+        width: 100%;
+      }
+}

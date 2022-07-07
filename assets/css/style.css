@@ -1,234 +1,181 @@
 /* TIPOGRAPHY */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap');
-
-/* GENERAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap");
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size:  1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000;
-    text-align: start;
-    background-color: #fff;
-}
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  text-align: start;
+  background-color: #fff; }
+  body h1 {
+    font-size: 48px; }
 
-h1 {
-    font-size: 48px;
-}
-
-/* NAVBAR STYLES */
-.nav-container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    background-color: rgb(232, 28, 69);
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.navmenu ul {
+.navmenu .nav-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: #e81c45;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  .navmenu .nav-container ul {
     display: flex;
     list-style-type: none;
-    padding-left: 10px;
-}
+    padding-left: 10px; }
+    .navmenu .nav-container ul li a {
+      color: white;
+      text-align: left;
+      padding: 15px 50px 15px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: larger; }
+      .navmenu .nav-container ul li a:hover {
+        background-color: white;
+        color: #e81c45; }
 
-.navmenu li a {
-    color: white;
-    text-align: left;
-    padding: 15px 50px 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: larger;
-}
-
-.navmenu li a:hover {
-    background-color: white ;
-    color: rgb(232, 28, 69);
-}
-
-/* HEADER STYLES */
 .header {
-    background-image: url('/assets/img/evento-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    opacity: 75%;
-    color: #fff;
-}
-
-.event {
+  background-image: url("/assets/img/evento-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  opacity: 75%;
+  color: #fff; }
+  .header .event {
     padding-left: 3rem;
-    padding-top: 7rem;
-}
+    padding-top: 7rem; }
+  .header .event-name h2 {
+    font-weight: 100; }
 
-.event-name h2 {
-    font-weight: 100;
-}
 /*header-oradores*/
 .header-oradores {
-    background-image: url(../img/bg-oradores.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90vh;
-    opacity: 75%;
-}
+  background-image: url(../img/bg-oradores.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  opacity: 75%; }
 
+/*header-programa*/
 .header-programa {
-    background-image: url(../img/bg-agenda.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90vh;
-    opacity: 75%;
-}
+  background-image: url(../img/bg-agenda.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  opacity: 75%; }
 
+/*header-sponsors*/
 .header-sponsors {
-    background-image: url(../img/bg-sponsors.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90vh;
-    opacity: 75%;
-}
+  background-image: url(../img/bg-sponsors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  opacity: 75%; }
 
+/*header-contacto*/
 .header-contacto {
-    background-image: url(../img/bg-contactos.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90vh;
-    opacity: 75%;
-}
-.event-oradores, .event-programa, .event-sponsor, .event-contacto{
-    padding-left: 3rem;
-    padding-top: 15rem;
-}
+  background-image: url(../img/bg-contactos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  opacity: 75%; }
+
+.event-oradores, .event-programa, .event-sponsor, .event-contacto {
+  padding-left: 3rem;
+  padding-top: 15rem; }
+
 .oradores, .programa, .sponsor, .contacto {
-    background-color: rgb(232, 28, 69);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-    padding: 1rem 1rem;
-}
+  background-color: #e81c45;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 1rem 1rem; }
 
+.about .about-container {
+  padding: 3rem 1rem 1rem 0; }
 
-/* MAIN STYLES */
-.about-container {
-    padding: 3rem 1rem 1rem 0;
-}
-.about-img img {
-    width: 100%;
-    border-radius: 0 50px 50px 0;
-    padding-bottom: 2rem;
+.about .about-img img {
+  width: 100%;
+  border-radius: 0 50px 50px 0;
+  padding-bottom: 2rem; }
 
-}
+.about .about-text {
+  padding-left: 3rem;
+  padding-right: 1rem; }
+  .about .about-text h2 {
+    color: #e81c45;
+    font-size: 30px; }
 
-.about-text {
-    padding-left: 3rem;
-    padding-right: 1rem;
-}
+.section .section-container {
+  padding: 1rem 0 1rem 1rem; }
 
-.about-text h2 {
-    color: rgb(232, 28, 69);
-    font-size: 30px;
-}
+.section .section-img img {
+  width: 100%;
+  border-radius: 50px 0 0 50px; }
 
-/* SECTION STYLE*/
-.section-container {
-    padding: 1rem 0 1rem 1rem;
-}
-.section-img img {
-    width: 100% ;
-    border-radius: 50px 0 0 50px;
-}
+.section .section-venue {
+  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem; }
+  .section .section-venue h2 {
+    color: #e81c45; }
+  .section .section-venue p {
+    font-size: 14px; }
 
-.section-venue {
+.section .section-map iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
+  padding-top: 3rem; }
 
-    padding-right: 3rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
-}
+.pages .pages-rounded-card {
+  border-radius: 15px;
+  margin: 15px; }
+  .pages .pages-rounded-card:hover {
+    box-shadow: 5px 5px 5px gray; }
 
-.section-venue h2 {
-    color: rgb(232, 28, 69);
-}
-.section-venue p {
-    font-size: 14px;
-}
+.pages .pages-rounded-card-img {
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-position-x: center;
+  border-radius: 15px 15px 0px 0px;
+  background-repeat: no-repeat; }
 
-.section-map iframe {
-    width: 600px;
-    height: 450px;
-    border: 0;
-    padding-top: 3rem;
-}
-
-/* FOOTER STYLES*/
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    background-color: rgb(232, 28, 69);
-    color: #fff;
-    margin-top: 5rem;
-}
-
-/* CARD STYLES */
-
-.pages-rounded-card{
-    border-radius: 15px;
-    margin: 15px;
-  }
-  
-  .pages-rounded-card:hover{
-    box-shadow: 5px 5px 5px gray;
-  }
-  
-  .pages-rounded-card-img{
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-    background-position-x: center;
-    border-radius: 15px 15px 0px 0px;
-    background-repeat: no-repeat;
-  }
-  
-.card-group {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-/*SPONSORS STYLE*/
+.pages .card-group {
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
 
 .logos img {
-   width: 100%;
-}
+  width: 100%; }
 
-      /* MOBILE STYLE */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #e81c45;
+  color: #fff;
+  margin-top: 5rem; }
+
 @media (max-width: 576px) {
-    /*navbar*/
-    .navmenu li a {
-        color: white;
-        text-align: left;
-        padding: 15px 5px 15px;
-        border-radius: 25px;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    .navbar-logo img{
-        width: 80%;
-    }
-
-    /*oradores*/
-    .pages-rounded-card-wrapper {
-        width: 60%;
-      }
-      .pages-rounded-card-img{
-        width: 100%;
-      }
-}
+  /*navbar*/
+  .navmenu li a {
+    color: white;
+    text-align: left;
+    padding: 15px 5px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px; }
+  .navbar-logo img {
+    width: 80%; }
+  /*oradores*/
+  .pages-rounded-card-wrapper {
+    width: 60%; }
+  .pages-rounded-card-img {
+    width: 100%; } }

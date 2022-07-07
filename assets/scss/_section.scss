@@ -1,0 +1,31 @@
+.section {
+    .section-container {
+        padding: 1rem 0 1rem 1rem;
+    }
+    .section-img {
+        img {
+            width: 100% ;
+            border-radius: 50px 0 0 50px;
+        }
+    }
+    .section-venue {
+
+        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        h2 {
+            color: $PrimaryColor;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .section-map {
+        iframe {
+            width: 600px;
+            height: 450px;
+            border: 0;
+            padding-top: 3rem;
+        }
+    }
+}

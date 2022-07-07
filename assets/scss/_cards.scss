@@ -1,0 +1,21 @@
+.pages {
+    .pages-rounded-card{
+        border-radius: 15px;
+        margin: 15px;
+        &:hover{
+            box-shadow: 5px 5px 5px gray;
+          }
+      }
+      .pages-rounded-card-img{
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        background-position-x: center;
+        border-radius: 15px 15px 0px 0px;
+        background-repeat: no-repeat;
+      }
+      .card-group {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
