@@ -1,0 +1,14 @@
+@each $red , $color in $redes  {
+    .button--#{$red}{
+        @extend .button;
+        background-color: $color;
+        
+    }
+}
+
+.button {
+    padding: map-get($button , padding );
+    border: map-get($button , bordes );
+    border-radius: map-get($button , radio );
+    @include propiedades(200px,auto,#fff);
+}

@@ -179,3 +179,17 @@ body {
     width: 60%; }
   .pages-rounded-card-img {
     width: 100%; } }
+
+.button--Facebook {
+  background-color: #3b5998; }
+
+.button--Twitter {
+  background-color: #00acee; }
+
+.button--Instagram {
+  background-color: #3f729b; }
+
+.button, .button--Facebook, .button--Twitter, .button--Instagram {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px; }
