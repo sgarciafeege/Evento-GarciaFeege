@@ -13,29 +13,35 @@
     <title>Congreso Medico Argentino</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: none;">
-        <a class="navbar-brand" href="./index.html"><img src="./assets/img/logonavbar.png" alt="logo"></a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(232, 28, 69);">
+        <a class="navbar-brand" href="./index.html" data-aos="fade-right"><img src="./assets/img/logonavbar.png" alt="logo"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-5" id="navbarNav">
+          <ul class="navbar-nav ms-auto justify-content-around p-r-5">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-light" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/oradores.html">Oradores</a>
+              <a class="nav-link text-light" href="./pages/oradores.html">Oradores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/programa.html">Programa</a>
+              <a class="nav-link text-light" href="./pages/programa.html">Programa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/sponsors.html">Sponsors</a>
+              <a class="nav-link text-light" href="./pages/sponsors.html">Sponsors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link text-light" href="./pages/contacto.html">Contacto</a>
               </li>
           </ul>
         </div>
       </nav>
-    <nav class="navmenu">
+
+   <!-- NAV PROPIA
+
+    <nav class="navmenu" style="display: none;">
         <div class="nav-container">
             <div class="navbar-logo"  data-aos="fade-right">
                 <a href="./index.html" class="nav-logo" ><img src="./assets/img/logonavbar.png" alt="logo"></a>
@@ -49,7 +55,7 @@
                     <li><a href="./pages/contacto.html">Contacto</a></li>
                 </ul>
         </div>
-    </nav>
+    </nav>-->
 
     <header class="header container-fluid">
         <div class="event row">
@@ -102,7 +108,7 @@
         </div>   
     </section>
     <footer class="footer" align="center">
-        <div class="container">
+        <div class="container" style="display: none;">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="button--Facebook">Facebook</div>
@@ -114,7 +120,6 @@
                     <div class="button--Instagram">Instagram</div>
                 </div>
             </div>
-
         </div>
         <div><h5>&copy;derechos reservados Santiago Garcia Feege</h5></div>
         
