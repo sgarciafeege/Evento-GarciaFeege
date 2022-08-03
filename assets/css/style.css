@@ -34,6 +34,9 @@ body {
         background-color: white;
         color: #e81c45; }
 
+.navbar {
+  background-color: #e81c45 !important; }
+
 .header {
   background-image: url("/assets/img/evento-background.jpg");
   background-size: cover;
@@ -134,8 +137,9 @@ body {
   padding-top: 3rem; }
 
 .pages .pages-rounded-card {
-  border-radius: 15px;
-  margin: 15px; }
+  height: 600px;
+  width: 300px;
+  border-radius: 15px; }
   .pages .pages-rounded-card:hover {
     box-shadow: 5px 5px 5px gray; }
 
@@ -176,20 +180,20 @@ body {
     width: 80%; }
   /*oradores*/
   .pages-rounded-card-wrapper {
-    width: 60%; }
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
   .pages-rounded-card-img {
-    width: 100%; } }
+    width: 100%; }
+  .event-oradores {
+    padding-left: 0; } }
 
-.button--Facebook {
-  background-color: #3b5998; }
-
-.button--Twitter {
-  background-color: #00acee; }
-
-.button--Instagram {
-  background-color: #3f729b; }
-
-.button, .button--Facebook, .button--Twitter, .button--Instagram {
-  padding: 10px 15px;
-  border: 0;
-  border-radius: 5px; }
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .button .button-descarga {
+    padding: 1rem 4rem;
+    background-color: #e81c45;
+    color: #fff;
+    border-radius: 20px; }
