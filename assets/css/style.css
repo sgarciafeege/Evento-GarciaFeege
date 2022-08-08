@@ -98,7 +98,8 @@ body {
   display: flex;
   justify-content: center;
   border-radius: 25px;
-  padding: 1rem 1rem; }
+  padding: 1rem 1rem;
+  text-align: center; }
 
 .about .about-container {
   padding: 3rem 1rem 1rem 0; }
@@ -132,7 +133,7 @@ body {
     font-size: 14px; }
 
 .section .section-map iframe {
-  width: 600px;
+  width: 100%;
   height: 450px;
   border: 0;
   padding-top: 3rem; }
@@ -192,10 +193,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: auto;
   background-color: #e81c45;
-  color: #fff;
-  margin-top: 5rem; }
+  color: #fff; }
 
 @media (max-width: 576px) {
   /*navbar*/
@@ -215,8 +215,11 @@ body {
     padding-bottom: 1rem; }
   .pages-rounded-card-img {
     width: 100%; }
-  .event-oradores {
-    padding-left: 0; } }
+  .event-oradores, .event-programa, .event-sponsor, .event-contacto {
+    padding-left: 0;
+    padding-top: 10rem; }
+  .agenda {
+    padding: 0 0 1rem; } }
 
 .button {
   display: flex;

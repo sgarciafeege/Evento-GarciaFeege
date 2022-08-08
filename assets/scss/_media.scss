@@ -20,7 +20,11 @@
       .pages-rounded-card-img{
         width: 100%;
       }
-      .event-oradores {
+      .event-oradores, .event-programa, .event-sponsor, .event-contacto {
         padding-left: 0;
+        padding-top: 10rem;
+      }
+      .agenda {
+        padding: 0 0 1rem;
       }
 }
